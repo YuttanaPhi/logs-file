@@ -1,0 +1,29 @@
+{
+  "name": "logs-file",
+  "version": "0.0.1",
+  "description": "Create logs file.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuttanaPhi/logs-file.git"
+  },
+  "keywords": [
+    "log",
+    "logs",
+    "file",
+    "test"
+  ],
+  "author": "Emba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuttanaPhi/logs-file/issues"
+  },
+  "homepage": "https://github.com/YuttanaPhi/logs-file#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "fs": "0.0.1-security"
+  }
+}
