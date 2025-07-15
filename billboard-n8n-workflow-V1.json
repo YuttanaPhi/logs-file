@@ -1,0 +1,49 @@
+{
+  "name": "Auto Update Billboard Playlist",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://www.billboard.com/feed/rss/chart/hot-100",
+        "responseFormat": "string",
+        "options": {
+          "splitIntoItems": true
+        }
+      },
+      "id": "1",
+      "name": "Fetch Billboard RSS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [
+        300,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "\nconst parser = require('fast-xml-parser');\nconst result = parser.parse(items[0].json.body);\nreturn result.rss.channel.item.map(entry => {\n  return {\n    json: {\n      title: entry.title,\n      link: entry.link\n    }\n  };\n});\n                "
+      },
+      "id": "2",
+      "name": "Parse XML",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        600,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Fetch Billboard RSS": {
+      "main": [
+        [
+          {
+            "node": "Parse XML",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false
+}
