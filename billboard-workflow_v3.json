@@ -1,0 +1,88 @@
+{
+  "name": "Billboard to YouTube Playlist",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "responseFormat": "string"
+      },
+      "id": "HTTP Request",
+      "name": "Get Billboard",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [200, 100]
+    },
+    {
+      "parameters": {
+        "functionCode": "const cheerio = require('cheerio');\nconst $ = cheerio.load($json[\"data\"]);\n\nconst songs = [];\n\n$('li.o-chart-results-list__item').each((i, el) => {\n  const title = $(el).find('h3').text().trim();\n  const artist = $(el).find('span.c-label').first().text().trim();\n  if (title && artist) songs.push({ title, artist });\n  if (songs.length >= 50) return false;\n});\n\nreturn songs.map(item => ({ json: item }));"
+      },
+      "id": "Function Parse",
+      "name": "Extract Songs",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 2,
+      "position": [400, 100]
+    },
+    {
+      "parameters": {
+        "url": "https://www.googleapis.com/youtube/v3/search",
+        "method": "GET",
+        "queryParametersUi": {
+          "parameter": [
+            { "name": "part", "value": "snippet" },
+            { "name": "q", "value": "={{ $json[\"title\"] + ' ' + $json[\"artist\"] }}" },
+            { "name": "maxResults", "value": "1" },
+            { "name": "type", "value": "video" },
+            { "name": "key", "value": "YOUR_YOUTUBE_API_KEY" }
+          ]
+        }
+      },
+      "id": "YouTube Search",
+      "name": "Search YouTube",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [600, 100]
+    },
+    {
+      "parameters": {
+        "functionCode": "const items = [];\n\nfor (const result of $json[\"items\"] || []) {\n  if (result.id && result.id.videoId) {\n    items.push({ json: { videoId: result.id.videoId } });\n  }\n}\n\nreturn items;"
+      },
+      "id": "Extract VideoID",
+      "name": "Get Video ID",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 2,
+      "position": [800, 100]
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet",
+        "method": "POST",
+        "bodyParametersJson": "={\n  \"snippet\": {\n    \"playlistId\": \"YOUR_PLAYLIST_ID\",\n    \"resourceId\": {\n      \"kind\": \"youtube#video\",\n      \"videoId\": \"{{ $json.videoId }}\"\n    }\n  }\n}",
+        "options": {
+          "headers": {
+            "Content-Type": "application/json"
+          }
+        }
+      },
+      "id": "Add to Playlist",
+      "name": "Add to Playlist",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [1000, 100]
+    }
+  ],
+  "connections": {
+    "HTTP Request": {
+      "main": [[{ "node": "Function Parse", "type": "main", "index": 0 }]]
+    },
+    "Function Parse": {
+      "main": [[{ "node": "YouTube Search", "type": "main", "index": 0 }]]
+    },
+    "YouTube Search": {
+      "main": [[{ "node": "Extract VideoID", "type": "main", "index": 0 }]]
+    },
+    "Extract VideoID": {
+      "main": [[{ "node": "Add to Playlist", "type": "main", "index": 0 }]]
+    }
+  }
+}
