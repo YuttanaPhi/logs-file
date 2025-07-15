@@ -1,0 +1,139 @@
+{
+  "name": "Billboard Hot 100 to YouTube Playlist",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://www.billboard.com/charts/hot-100",
+        "responseFormat": "string",
+        "options": {}
+      },
+      "name": "HTTP Request - Billboard Hot 100",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "mode": "regex",
+        "value": "<span class=\"chart-element__information__song text--truncate color--primary\">([^<]+)</span>",
+        "options": {}
+      },
+      "name": "Extract Songs",
+      "type": "n8n-nodes-base.regex",
+      "typeVersion": 1,
+      "position": [500, 250]
+    },
+    {
+      "parameters": {
+        "mode": "regex",
+        "value": "<span class=\"chart-element__information__artist text--truncate color--secondary\">([^<]+)</span>",
+        "options": {}
+      },
+      "name": "Extract Artists",
+      "type": "n8n-nodes-base.regex",
+      "typeVersion": 1,
+      "position": [500, 350]
+    },
+    {
+      "parameters": {
+        "functionCode": "const songs = items[0].json.matches;\nconst artists = items[1].json.matches;\n\nconst results = [];\nfor(let i = 0; i < songs.length; i++) {\n  results.push({\n    json: {\n      title: songs[i],\n      artist: artists[i],\n      searchQuery: `${songs[i]} ${artists[i]}`\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "Prepare Song List",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "resource": "video",
+        "operation": "search",
+        "query": "={{$json[\"searchQuery\"]}}",
+        "maxResults": 1
+      },
+      "name": "YouTube Search",
+      "type": "n8n-nodes-base.youtube",
+      "typeVersion": 1,
+      "position": [1000, 300],
+      "credentials": {
+        "googleOAuth2Api": "YOUR_GOOGLE_OAUTH2_CREDENTIAL_NAME"
+      }
+    },
+    {
+      "parameters": {
+        "resource": "playlistItem",
+        "operation": "add",
+        "playlistId": "YOUR_YOUTUBE_PLAYLIST_ID",
+        "videoId": "={{$json[\"items\"][0][\"id\"][\"videoId\"]}}"
+      },
+      "name": "Add to YouTube Playlist",
+      "type": "n8n-nodes-base.youtube",
+      "typeVersion": 1,
+      "position": [1250, 300],
+      "credentials": {
+        "googleOAuth2Api": "YOUR_GOOGLE_OAUTH2_CREDENTIAL_NAME"
+      }
+    }
+  ],
+  "connections": {
+    "HTTP Request - Billboard Hot 100": {
+      "main": [
+        [
+          {
+            "node": "Extract Songs",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Extract Artists",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Songs": {
+      "main": [
+        [
+          {
+            "node": "Prepare Song List",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Artists": {
+      "main": [
+        [
+          {
+            "node": "Prepare Song List",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Prepare Song List": {
+      "main": [
+        [
+          {
+            "node": "YouTube Search",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "YouTube Search": {
+      "main": [
+        [
+          {
+            "node": "Add to YouTube Playlist",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
