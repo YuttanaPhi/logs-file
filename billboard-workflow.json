@@ -1,0 +1,1499 @@
+[{
+  "_id": {
+    "$oid": "6866ab0ecbb8a6452c299dad"
+  },
+  "appId": "05Nlbq9k9JdS",
+  "userId": {
+    "$oid": "685d53247f55f667fdba48c9"
+  },
+  "name": "Embaa test subscribtion",
+  "description": "Team Description/ Product Description/ Company Description (อย่างน้อย 8 chars)",
+  "companyName": "Company Legal Name",
+  "companyEmail": "company@example.com",
+  "companyAddress": "123 Business Street, City, Country",
+  "taxId": "1234567890123",
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "day": "Monday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866ab0ecbb8a6452c299daf"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866ab0ecbb8a6452c299dae"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-03T16:08:33.632Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-03T16:08:33.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6866a50c18e35d7728407aed"
+  },
+  "appId": "WEtPXlbyLCMw",
+  "userId": {
+    "$oid": "685d53247f55f667fdba48c9"
+  },
+  "name": "Embaa test ai-agent default",
+  "description": "Team Description/ Product Description/ Company Description (อย่างน้อย 8 chars)",
+  "companyName": "Company Legal Name",
+  "companyEmail": "company@example.com",
+  "companyAddress": "123 Business Street, City, Country",
+  "taxId": "1234567890123",
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "day": "Monday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866a50c18e35d7728407aef"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866a50c18e35d7728407aee"
+      }
+    }
+  ],
+  "packagePlanId": {
+    "$oid": "6851a25b16acd978b499c128"
+  },
+  "createdAt": {
+    "$date": "2025-07-03T15:42:47.146Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-03T15:42:47.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6866a4ca8d702efbf6beba95"
+  },
+  "appId": "iL6V1rGwNFtj",
+  "userId": {
+    "$oid": "685d53247f55f667fdba48c9"
+  },
+  "name": "Embaa test ai-agent default",
+  "description": "Team Description/ Product Description/ Company Description (อย่างน้อย 8 chars)",
+  "companyName": "Company Legal Name",
+  "companyEmail": "company@example.com",
+  "companyAddress": "123 Business Street, City, Country",
+  "taxId": "1234567890123",
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "day": "Monday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866a4ca8d702efbf6beba97"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866a4ca8d702efbf6beba96"
+      }
+    }
+  ],
+  "packagePlanId": {
+    "$oid": "6851a25b16acd978b499c128"
+  },
+  "createdAt": {
+    "$date": "2025-07-03T15:41:44.338Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-03T15:41:44.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6864cba7df8872d939cac5ff"
+  },
+  "appId": "kBBq9GMUM19q",
+  "userId": {
+    "$oid": "6864cb7adf8872d939cac5ca"
+  },
+  "name": "testea dw",
+  "description": "",
+  "companyName": "hg",
+  "companyEmail": "",
+  "companyAddress": "h",
+  "taxId": "",
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "day": "Sunday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece48"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece47"
+      }
+    },
+    {
+      "day": "Monday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece4a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece49"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece4c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece4b"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece4e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece4d"
+      }
+    },
+    {
+      "day": "Thursday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece50"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece4f"
+      }
+    },
+    {
+      "day": "Friday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece52"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece51"
+      }
+    },
+    {
+      "day": "Saturday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "6866235a889a5b6c3e9ece54"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6866235a889a5b6c3e9ece53"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-07-01T21:40:07.547Z"
+  },
+  "createdBy": null,
+  "updatedBy": {
+    "$oid": "6864cb7adf8872d939cac5ca"
+  },
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-03T06:29:46.119Z"
+  },
+  "__v": 0,
+  "imageUrl": "https://dev-saifa-ai-oss.oss-ap-southeast-7.aliyuncs.com/workspaces/6864cba7df8872d939cac5ff/images/Screenshot 2025-07-02 120950.png",
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "686235c9d6f54e7b33f15b85"
+  },
+  "appId": "FD0iAPRJQLHz",
+  "userId": {
+    "$oid": "6853737dfbb42a3b7b4602f8"
+  },
+  "name": "Sale Workspace",
+  "description": "for shopping store",
+  "companyName": null,
+  "companyEmail": null,
+  "companyAddress": null,
+  "taxId": null,
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b86"
+      },
+      "day": "Sunday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b87"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b88"
+      },
+      "day": "Monday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b89"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b8a"
+      },
+      "day": "Tuesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b8b"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b8c"
+      },
+      "day": "Wednesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b8d"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b8e"
+      },
+      "day": "Thursday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b8f"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b90"
+      },
+      "day": "Friday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b91"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "686235c9d6f54e7b33f15b92"
+      },
+      "day": "Saturday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "686235c9d6f54e7b33f15b93"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-29T18:46:52.404Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-29T18:46:52.404Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685ed45e50f5c71653f3af63"
+  },
+  "appId": "4UZQ0bMomtIt",
+  "userId": {
+    "$oid": "685568e63d9ded99fbb4060d"
+  },
+  "name": "Test Workspace",
+  "description": "For watcharaphon",
+  "companyName": null,
+  "companyEmail": null,
+  "companyAddress": null,
+  "taxId": null,
+  "isAutoAssignToAI": true,
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af64"
+      },
+      "day": "Sunday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af65"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af66"
+      },
+      "day": "Monday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af67"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af68"
+      },
+      "day": "Tuesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af69"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af6a"
+      },
+      "day": "Wednesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af6b"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af6c"
+      },
+      "day": "Thursday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af6d"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af6e"
+      },
+      "day": "Friday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af6f"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "685ed45e50f5c71653f3af70"
+      },
+      "day": "Saturday",
+      "enabled": false,
+      "shifts": [
+        {
+          "_id": {
+            "$oid": "685ed45e50f5c71653f3af71"
+          },
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-27T16:49:09.002Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-27T16:49:09.002Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685d55e965dfa260217c08ab"
+  },
+  "appId": "Tc6WkDSVw2vr",
+  "userId": {
+    "$oid": "685d53247f55f667fdba48c9"
+  },
+  "name": "Emba update image",
+  "description": "Emba update image",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-26T14:13:53.890Z"
+  },
+  "createdBy": null,
+  "updatedBy": {
+    "$oid": "685d53247f55f667fdba48c9"
+  },
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-01T03:02:01.920Z"
+  },
+  "__v": 0,
+  "companyAddress": "123 Business Street, City, Country",
+  "companyEmail": "company@example.com",
+  "companyName": "Company Legal Name",
+  "taxId": "1234567890123",
+  "timeZone": "Asia/Bangkok",
+  "businessHours": [
+    {
+      "day": "Sunday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac450"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac44f"
+      }
+    },
+    {
+      "day": "Monday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac452"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac451"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac454"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac453"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac456"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac455"
+      }
+    },
+    {
+      "day": "Thursday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac458"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac457"
+      }
+    },
+    {
+      "day": "Friday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac45a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac459"
+      }
+    },
+    {
+      "day": "Saturday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "68634fa99b02719598cac45c"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68634fa99b02719598cac45b"
+      }
+    }
+  ],
+  "imageUrl": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg.webp",
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685ba2caca44d752c04b1328"
+  },
+  "appId": "2PQNFJO2g93d",
+  "userId": {
+    "$oid": "6853737dfbb42a3b7b4602f8"
+  },
+  "name": "test3xxx ปปป",
+  "description": "workspsss",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-24T18:52:18.672Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-24T18:52:18.672Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685a48f46cb3bd025e6aca40"
+  },
+  "appId": "fAUzRHoZW5P2",
+  "userId": {
+    "$oid": "6853737dfbb42a3b7b4602f8"
+  },
+  "name": "test1",
+  "description": "test1 desc",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685abaf91a6e9a0862bf9f52"
+  },
+  "appId": "Us7S7j49deWE",
+  "userId": {
+    "$oid": "6857e8ad1ad426def2941e60"
+  },
+  "name": "My Workspace",
+  "description": "",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685aa0bf6cb3bd025e6ad662"
+  },
+  "appId": "Us7S7j49dexo",
+  "userId": {
+    "$oid": "685568e63d9ded99fbb4060d"
+  },
+  "name": "John Brown",
+  "description": "Tempore voluptatibu",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685a6a996cb3bd025e6ad0d9"
+  },
+  "appId": "Dya52o3zhNF8",
+  "userId": {
+    "$oid": "6853737dfbb42a3b7b4602f8"
+  },
+  "name": "test2",
+  "description": "test2 desc",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T21:03:26.691Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "6859a35f0f2c86ac4c65fa0c"
+  },
+  "appId": "Ur9fsaWeuaMv",
+  "userId": {
+    "$oid": "6859a3290f2c86ac4c65f9e8"
+  },
+  "name": "Dine Book",
+  "description": "Rattatui",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "68599dc40f2c86ac4c65f9c6"
+  },
+  "appId": "2PQNFJO2g93d",
+  "userId": {
+    "$oid": "685979b2595a066a7d027a23"
+  },
+  "name": "ทีมหมดอายุ บูด",
+  "description": "สำนักงานตำรวจแห่งชาติ",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "__v": 0,
+  "expiredAt": {
+    "$date": "2025-01-23T18:32:23.173Z"
+  },
+  "packagePlanId": {
+    "$oid": "6851a4c4232be19fa5a32180"
+  },
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "68599dbf0f2c86ac4c65f9be"
+  },
+  "appId": "y6e2wix4bb6H",
+  "userId": {
+    "$oid": "685979b2595a066a7d027a23"
+  },
+  "name": "BossDev",
+  "description": "Real test",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T18:32:23.173Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "68597963595a066a7d027a0c"
+  },
+  "appId": "Jw3A8BYNVPTZ",
+  "userId": {
+    "$oid": "685979b2595a066a7d027a23"
+  },
+  "name": "Heelayttttt",
+  "description": "ToTottttt",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-23T15:57:23.193Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-23T15:57:23.193Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "6856ab45970fa8e7817c4574"
+  },
+  "appId": "gKzCY4XfMOBS",
+  "userId": {
+    "$oid": "6856b8dd970fa8e7817c46c4"
+  },
+  "name": "My Workspace",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-21T12:53:25.874Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-21T12:53:25.874Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "6855b09ad8e7caec5bbe696f"
+  },
+  "appId": "yKUQadPHt0Rx",
+  "userId": {
+    "$oid": "68569f79d8e7caec5bbe6dd2"
+  },
+  "name": "My Workspace",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-20T19:03:54.816Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-20T19:03:54.816Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "68559627e3b56b90ac3c505c"
+  },
+  "appId": "cO0cyqejDgrp",
+  "userId": {
+    "$oid": "68559bcae3b56b90ac3c510b"
+  },
+  "name": "My Workspace",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-20T17:11:03.865Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-20T17:11:03.865Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "685519603d9ded99fbb3f6df"
+  },
+  "appId": "hZv62ciU7yfj",
+  "userId": {
+    "$oid": "68523262ca2869eb31141498"
+  },
+  "name": "สวัสดีคนไทย 22",
+  "description": "",
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-20T08:18:40.050Z"
+  },
+  "createdBy": null,
+  "updatedBy": {
+    "$oid": "68523262ca2869eb31141498"
+  },
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-07-03T10:56:15.330Z"
+  },
+  "__v": 0,
+  "companyEmail": "",
+  "companyName": "I LOVE PATTAYA",
+  "businessHours": [
+    {
+      "day": "Sunday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef885"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef886"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef884"
+      }
+    },
+    {
+      "day": "Monday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef888"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef887"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef88a"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef88b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef889"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef88d"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef88e"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef88c"
+      }
+    },
+    {
+      "day": "Thursday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef890"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef891"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef88f"
+      }
+    },
+    {
+      "day": "Friday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef893"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef894"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef892"
+      }
+    },
+    {
+      "day": "Saturday",
+      "enabled": false,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "18:00",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef896"
+          }
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "_id": {
+            "$oid": "686661cf889a5b6c3e9ef897"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "686661cf889a5b6c3e9ef895"
+      }
+    }
+  ],
+  "companyAddress": "pattaya sfdg werg232",
+  "taxId": "",
+  "timeZone": "Asia/Ashkhabad",
+  "imageUrl": null,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "684fefe758e3f6e35361aed4"
+  },
+  "userId": {
+    "$oid": "684fefe758e3f6e35361aed1"
+  },
+  "name": "Workspace Name",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-16T04:27:46.621Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-16T04:27:46.621Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "6848872af442f350a60d1781"
+  },
+  "userId": {
+    "$oid": "6848872af442f350a60d177f"
+  },
+  "name": "Workspace Name",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-10T19:19:54.606Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-10T19:19:54.606Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "68487a3db0e612f17031f6e2"
+  },
+  "userId": {
+    "$oid": "68487a3db0e612f17031f6e0"
+  },
+  "name": "Workspace Name",
+  "description": null,
+  "isAutoAssignToAI": true,
+  "createdAt": {
+    "$date": "2025-06-10T18:32:15.352Z"
+  },
+  "createdBy": null,
+  "updatedBy": null,
+  "deletedAt": null,
+  "deletedBy": null,
+  "updatedAt": {
+    "$date": "2025-06-10T18:32:15.352Z"
+  },
+  "__v": 0,
+  "maxMember": 10
+},
+{
+  "_id": {
+    "$oid": "683852c55321a2b6057534cb"
+  },
+  "userId": {
+    "$oid": "6851a766f0563b3da96c7948"
+  },
+  "name": "Livcommerce",
+  "description": "Livcommerce Co., Ltd.",
+  "createdAt": {
+    "$date": "2025-03-21T07:47:22.121Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-21T07:47:22.121Z"
+  },
+  "__v": 0,
+  "aiAgentId": {
+    "$oid": "67e800c9f055cb772fe210a8"
+  },
+  "isAutoAssignToAI": true,
+  "packagePlanId": {
+    "$oid": "6851a4c4232be19fa5a32180"
+  },
+  "expiredAt": {
+    "$date": "2026-05-24T07:47:22.121Z"
+  },
+  "appId": "1PQNFJO2g933",
+  "deletedAt": null
+},
+{
+  "_id": {
+    "$oid": "685ac0bde1cdc13ee15cec40"
+  },
+  "userId": {
+    "$oid": "6857e8ad1ad426def2941e60"
+  },
+  "name": "Rose Apple",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-03-21T07:47:22.121Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-03T12:01:23.682Z"
+  },
+  "__v": 0,
+  "isAutoAssignToAI": true,
+  "packagePlanId": {
+    "$oid": "6851a4c4232be19fa5a32180"
+  },
+  "expiredAt": {
+    "$date": "2026-05-24T07:47:22.121Z"
+  },
+  "appId": "iQdvuAwzkokj",
+  "deletedAt": null,
+  "maxMember": 10,
+  "businessHours": [
+    {
+      "day": "Sunday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf1"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efcf0"
+      }
+    },
+    {
+      "day": "Monday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "14:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf3"
+          }
+        },
+        {
+          "from": "14:00",
+          "to": "14:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf4"
+          }
+        },
+        {
+          "from": "14:30",
+          "to": "15:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf5"
+          }
+        },
+        {
+          "from": "15:00",
+          "to": "15:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf6"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efcf2"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf8"
+          }
+        },
+        {
+          "from": "17:00",
+          "to": "17:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcf9"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efcf7"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcfb"
+          }
+        },
+        {
+          "from": "17:00",
+          "to": "17:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcfc"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efcfa"
+      }
+    },
+    {
+      "day": "Thursday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcfe"
+          }
+        },
+        {
+          "from": "17:00",
+          "to": "17:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efcff"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efcfd"
+      }
+    },
+    {
+      "day": "Friday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "15:30",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efd01"
+          }
+        },
+        {
+          "from": "15:30",
+          "to": "16:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efd02"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efd00"
+      }
+    },
+    {
+      "day": "Saturday",
+      "enabled": true,
+      "shifts": [
+        {
+          "from": "09:00",
+          "to": "17:00",
+          "_id": {
+            "$oid": "68667113889a5b6c3e9efd04"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68667113889a5b6c3e9efd03"
+      }
+    }
+  ],
+  "companyAddress": "test",
+  "companyName": "test",
+  "imageUrl": "https://dev-saifa-ai-oss.oss-ap-southeast-7.aliyuncs.com/workspaces/685ac0bde1cdc13ee15cec40/images/4mb.jpg",
+  "timeZone": "Asia/Bangkok",
+  "updatedBy": {
+    "$oid": "6857e8ad1ad426def2941e60"
+  }
+}]
